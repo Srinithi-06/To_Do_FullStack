@@ -1,0 +1,156 @@
+/* ===== GLOBAL RESET ===== */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #ffe6f0, #ffd1e8);
+  color: #333;
+}
+
+/* ===== PAGE CONTAINER ===== */
+/* ===== PAGE CONTAINER ===== */
+.page {
+  max-width: 420px;   /* 👈 reduced width */
+  margin: 40px auto;
+  padding: 30px;
+}
+
+
+/* ===== HEADINGS ===== */
+h1, h2 {
+  text-align: center;
+  color: #8e145a;
+}
+
+h4 {
+  color: #6a1b4d;
+}
+
+/* ===== INPUTS ===== */
+.input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #f2a7c6;
+  font-size: 15px;
+  background: #fff;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  background: #ff5fa2;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #e84b8f;
+}
+
+/* Secondary buttons (delete, logout) */
+.btn.secondary {
+  background: #7b2cbf;
+}
+
+.btn.secondary:hover {
+  background: #5a189a;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 10px 25px rgba(255, 95, 162, 0.25);
+}
+
+/* ===== TASK STATUS ===== */
+.completed {
+  text-decoration: line-through;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.incomplete {
+  color: #c2185b;
+  font-weight: 500;
+}
+
+/* ===== MONTH BUTTONS ===== */
+.month-btn {
+  padding: 10px 16px;
+  border-radius: 25px;
+  border: none;
+  background: #ffd1e8;
+  color: #8e145a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.month-btn:hover {
+  background: #ffb3d9;
+}
+
+.month-btn.active {
+  background: #ff5fa2;
+  color: white;
+}
+/* ===== NAVBAR (CONTRAST FIX) ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: linear-gradient(90deg, #c9186b, #ff5fa2);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Nav links */
+.nav-links a {
+  margin-right: 18px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+/* Logout button */
+.nav-links button {
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links button:hover {
+  background: #5a189a;
+}
+
